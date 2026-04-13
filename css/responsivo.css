@@ -1,0 +1,293 @@
+﻿@media (max-width: 1024px){
+  .site{
+    padding: 0 20px;
+  }
+
+  h1{
+    font-size: 52px;
+    max-width: 10ch;
+  }
+
+  h2{
+    font-size: 42px;
+  }
+
+  .hero{
+    padding-top: 36px;
+  }
+
+  .hero__grid,
+  .problema-mercado__grid,
+  .parceria-ppr__grid,
+  .rodape__grid,
+  .cards,
+  .cards--quatro,
+  .depoimentos__grid,
+  .processo__lista--linha{
+    grid-template-columns: 1fr;
+  }
+
+  .hero__conteudo,
+  .secao__topo,
+  .problema-mercado__topo,
+  .parceria-ppr .secao__topo{
+    max-width: none;
+  }
+
+  .hero__acoes .botao{
+    min-width: 0;
+  }
+
+  .consequencia__card,
+  .problema-mercado__card,
+  .parceria-ppr__card{
+    max-width: none;
+  }
+
+  .processo__lista--linha{
+    gap: 20px;
+  }
+
+  .passo__seta{
+    display: none;
+  }
+
+  .cta-bloco__conteudo{
+    padding: 28px 30px;
+  }
+
+  .cta-bloco__conteudo h2{
+    white-space: normal;
+  }
+
+  .rodape__grid > div:first-child,
+  .rodape__contato{
+    max-width: none;
+    padding-top: 0;
+    margin: 0;
+  }
+
+  .rodape__grid > div:first-child .rodape__logo{
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 768px){
+  .topo{
+    position: static;
+  }
+
+  .topo__conteudo{
+    min-height: 112px;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  .topo__conteudo .botao--secundario{
+    display: none !important;
+  }
+
+  .topo img{
+    width: 132px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1{
+    font-size: 44px;
+  }
+
+  h2{
+    font-size: 36px;
+  }
+
+  .hero__texto,
+  .problema-mercado .secao__topo p,
+  .parceria-ppr .secao__topo p,
+  .consequencia__card p{
+    font-size: 18px;
+  }
+
+  .hero__card,
+  .card,
+  .passo,
+  .depoimento,
+  .problema-mercado__card,
+  .parceria-ppr__card,
+  .cta-bloco__conteudo,
+  .consequencia__card{
+    padding: 24px;
+  }
+
+  .depoimentos__grid{
+    gap: 18px;
+  }
+
+  .rodape__mapa iframe{
+    height: 280px;
+  }
+}
+
+@media (max-width: 640px){
+  .site{
+    padding: 0 16px;
+  }
+
+  .topo__conteudo{
+    min-height: 120px;
+    padding: 10px 0;
+  }
+
+  .topo img{
+    width: 118px;
+  }
+
+  .hero{
+    padding: 24px 0 20px;
+  }
+
+  h1{
+    font-size: 38px;
+    max-width: none;
+  }
+
+  h2{
+    font-size: 30px;
+  }
+
+  h3{
+    font-size: 18px;
+  }
+
+  .hero__texto{
+    margin-top: 18px;
+    font-size: 18px;
+    line-height: 1.65;
+  }
+
+  .hero__acoes,
+  .hero__acoes .botao,
+  .botao{
+    width: 100%;
+  }
+
+  .hero__acoes{
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .cta-bloco__conteudo{
+    width: 100%;
+    padding: 24px 20px;
+    border-radius: 26px;
+  }
+
+  .cta-bloco__conteudo > div{
+    width: 100%;
+  }
+
+  .cta-bloco__conteudo h2{
+    font-size: 28px;
+    line-height: 1.15;
+    white-space: normal;
+  }
+
+  .formulario-contato{
+    gap: 14px;
+  }
+
+  .campo-formulario input,
+  .campo-formulario textarea{
+    padding: 14px 16px;
+  }
+
+  .problema-mercado,
+  .consequencia,
+  .parceria-ppr,
+  .beneficios,
+  .processo,
+  .depoimentos,
+  .faq{
+    padding: 52px 0;
+  }
+
+  .consequencia{
+    padding-top: 28px;
+  }
+
+  .secao__topo{
+    margin-bottom: 28px;
+  }
+
+  .cards,
+  .depoimentos__grid,
+  .faq__lista,
+  .processo__lista{
+    gap: 16px;
+  }
+
+  .problema-mercado__lista li,
+  .parceria-ppr__lista li,
+  .cta-bloco__lista li,
+  .faq__item summary,
+  .faq__item p,
+  .passo p,
+  .card p,
+  .depoimento p{
+    font-size: 17px;
+  }
+
+  .cta-bloco__lista li{
+    line-height: 1.45;
+  }
+
+  .faq__item summary{
+    padding: 22px 52px 22px 20px;
+  }
+
+  .faq__item summary::after{
+    right: 18px;
+  }
+
+  .rodape{
+    padding-top: 32px;
+  }
+
+  .rodape__grid{
+    gap: 28px;
+  }
+
+  .rodape__grid > div:first-child{
+    text-align: center;
+  }
+
+  .rodape__mapa{
+    border-radius: 22px;
+  }
+
+  .rodape__mapa iframe{
+    height: 220px;
+  }
+
+  .rodape__faixa{
+    margin-top: 28px;
+    padding: 12px 16px;
+  }
+
+  .rodape__faixa p{
+    font-size: 14px;
+  }
+
+  .whatsapp-flutuante{
+    right: 16px;
+    bottom: 16px;
+    width: 58px;
+    height: 58px;
+  }
+
+  .whatsapp-flutuante svg{
+    width: 28px;
+    height: 28px;
+  }
+}
