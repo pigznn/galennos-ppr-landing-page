@@ -31,6 +31,10 @@ https://galennoslaboratorio.com.br/ppr
 
 The goal of this project is to present PPR services clearly and professionally while maximizing user engagement and lead generation.
 
+## ⚠️ Disclaimer
+
+This project was developed for a real client. The code is shared for portfolio purposes only.
+
 ## 👨‍💻 Author
 
 Developed by Guilherme Pignataro
